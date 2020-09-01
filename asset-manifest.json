@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/findmyroute-web/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/findmyroute-web/static/js/main.bee83009.chunk.js",
+    "main.js.map": "/findmyroute-web/static/js/main.bee83009.chunk.js.map",
+    "runtime-main.js": "/findmyroute-web/static/js/runtime-main.b2ec190b.js",
+    "runtime-main.js.map": "/findmyroute-web/static/js/runtime-main.b2ec190b.js.map",
+    "static/js/2.f0bfb62a.chunk.js": "/findmyroute-web/static/js/2.f0bfb62a.chunk.js",
+    "static/js/2.f0bfb62a.chunk.js.map": "/findmyroute-web/static/js/2.f0bfb62a.chunk.js.map",
+    "index.html": "/findmyroute-web/index.html",
+    "precache-manifest.ca7f0748a1885cb4e0144a8cb0c53665.js": "/findmyroute-web/precache-manifest.ca7f0748a1885cb4e0144a8cb0c53665.js",
+    "service-worker.js": "/findmyroute-web/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/findmyroute-web/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.f0bfb62a.chunk.js.LICENSE.txt": "/findmyroute-web/static/js/2.f0bfb62a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2ec190b.js",
+    "static/js/2.f0bfb62a.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.bee83009.chunk.js"
+  ]
+}
