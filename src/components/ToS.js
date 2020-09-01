@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import privacy from "../data/privacy-docs";
+import terms from "../data/ToS-docs";
 
 const Wrapper = styled.div`
   width: 50em;
@@ -32,45 +32,57 @@ const Info = styled.div`
   text-align: center;
 `
 
-
-const Privacy = () => {
+const ToS = () => {
   return (
     <Wrapper>
       <Title>
-        Privacy Policy
+        Terms of Service
       </Title>
       <Title className="date">
-        Effective Date: {privacy.date}
+        Effective Date: {terms.date}
       </Title>
       <Info>
-        {privacy.policy}
+        Thanks for using FindMyRoute!
+      </Info>
+      <Title classname="subtitle">
+        Acceptance of Terms
+      </Title>
+      <Info>
+        {terms.terms}
       </Info>
       <Title className="subtitle">
-        What Information Do We Collect
+        User Accounts
       </Title>
       <Info>
-        {privacy.information}
+        {terms.accounts}
       </Info>
       <Title className="subtitle">
-        Why and How Do We Use Your Information
+        Your Information
       </Title>
       <Info>
-        {privacy.geolocation}
+        {terms.location}
       </Info>
       <Title className="subtitle">
-        Changes Made to the Privacy Policy
+        Privacy Policy
       </Title>
       <Info>
-        {privacy.changes}
+        {"You can read our Privacy Policy "}
+        <a href="privacy-policy" target="_blank">here</a>
+      </Info>
+      <Title className="subtitle">
+        Changes Made to the Terms of Service
+      </Title>
+      <Info>
+        {terms.changes}
       </Info>
       <Title className="subtitle">
         Contact Us
       </Title>
       <Info>
-        {privacy.contact}
+        {terms.contact}
       </Info>
     </Wrapper>
   )
 }
 
-export default Privacy;
+export default ToS;

@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 import Privacy from "./components/privacy";
+import ToS from "./components/ToS";
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
           <Privacy />
         </Route>
         <Route path="/terms-of-service">
-          <Temp />
+          <ToS />
         </Route>
         <Route path="/">
           <Temp />
