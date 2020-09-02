@@ -5,6 +5,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  margin-top: 2vh;
 `
 
 const Divider = styled.div`
