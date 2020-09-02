@@ -46,7 +46,7 @@ const StyledNav = styled.nav`
 const Navbar = () => {
   return (
     <StyledNav>
-      <Link to="/" className="name">FindMyRoute</Link>
+      <Link to="/findmyroute-web" className="name">FindMyRoute</Link>
       <ul className="nav-links">
         <li>
           <Link to="/privacy-policy" className="link">Privacy Policy</Link>

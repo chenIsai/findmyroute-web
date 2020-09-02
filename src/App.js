@@ -18,7 +18,7 @@ function App() {
         <Route path="/terms-of-service">
           <ToS />
         </Route>
-        <Route path="/">
+        <Route path="/findmyroute-web">
           <Home />
         </Route>
       </Switch>
