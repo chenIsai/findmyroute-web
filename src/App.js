@@ -3,11 +3,13 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 import Privacy from "./components/privacy";
 import ToS from "./components/ToS";
+import Navbar from "./components/navbar";
 
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Switch>
         <Route path="/privacy-policy">
           <Privacy />
