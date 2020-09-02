@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 `
 
 const Title = styled.div`
-  font-size: 5em;
+  font-size: 3.5em;
   text-align: center;
   color: #40C3A0;
 

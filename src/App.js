@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 import Privacy from "./components/privacy";
+import Home from "./components/home";
 import ToS from "./components/ToS";
 import Navbar from "./components/navbar";
 
@@ -18,7 +19,7 @@ function App() {
           <ToS />
         </Route>
         <Route path="/">
-          <Temp />
+          <Home />
         </Route>
       </Switch>
     </Router>
