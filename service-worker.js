@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/findmyroute-web/precache-manifest.002bf765d8d025d22303d2741e977539.js"
+  "/findmyroute-web/precache-manifest.ab8e937c55cb1dfa756f3c48699a4065.js"
 );
 
 self.addEventListener('message', (event) => {
